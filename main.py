@@ -2,11 +2,9 @@ import random
 
 
 def findEvenNumber(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    for i in numbers:
+        if i % 2 == 0:
+            yield i
 
 
 def main():
